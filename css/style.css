@@ -20,7 +20,7 @@ form {
   position: relative;
   width: 25%;
   height: 95%;
-  margin-left: 75%;
+  margin-left: 5%;
 }
 
 label[for="email_notifs"]{
