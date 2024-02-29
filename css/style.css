@@ -6,6 +6,9 @@ main {
   position: absolute;
   margin: 0 auto;
 }
+ul, input {
+  display: block;
+}
 /*Content*/
 h1 {
   font-weight: 700;
