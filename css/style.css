@@ -1,0 +1,8 @@
+/* Phone style */
+/*Layout*/
+main {
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  margin: 0 auto;
+}
