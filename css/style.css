@@ -53,6 +53,11 @@ p, label {
   font-weight: 300;
 }
 
+input[type="text"], input[type="email"] {
+  padding: 1.625em 2.4375em;
+  width: 100%;
+}
+
 ul {
   list-style-type: "\2605";
 }
