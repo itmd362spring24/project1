@@ -14,6 +14,7 @@ form {
   position: relative;
   width: 70%;
   height: 95%;
+  margin: 0;
 }
 
 #category_preview {
