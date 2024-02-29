@@ -48,11 +48,19 @@ h1 {
   margin: 0 auto;
 }
 
-p, label, li {
-  font-size: 3em;
+p, label {
+  font-size: 3.5em;
   font-weight: 300;
 }
 
 ul {
   list-style-type: "\2605";
+}
+
+li {
+  font-size: 3em;
+}
+
+label[for="email_notifs"]{
+  font-size: 2em;
 }
