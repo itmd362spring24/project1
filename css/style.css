@@ -9,6 +9,10 @@ main {
 ul, input {
   display: block;
 }
+
+label[for="email_notifs"]{
+  display: inline-block;
+}
 /*Content*/
 h1 {
   font-weight: 700;
