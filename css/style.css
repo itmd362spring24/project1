@@ -11,9 +11,16 @@ ul, input {
 }
 
 form {
-  width: 80%;
+  position: relative;
+  width: 70%;
   height: 95%;
-  margin: 0 auto;
+}
+
+#category_preview {
+  position: relative;
+  width: 25%;
+  height: 95%;
+  margin-right: 75%;
 }
 
 label[for="email_notifs"]{
