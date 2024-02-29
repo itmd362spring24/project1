@@ -13,6 +13,11 @@ ul, input {
 label[for="email_notifs"]{
   display: inline-block;
 }
+
+input[name="email_notifs"]{
+  display: inline-block;
+}
+
 /*Content*/
 h1 {
   font-weight: 700;
