@@ -22,6 +22,7 @@ form {
   display: inline-block;
   width: 25%;
   height: 95%;
+  float: right;
 }
 
 label[for="email_notifs"]{
@@ -53,7 +54,7 @@ p, label {
   font-weight: 300;
 }
 
-input[type="text"], input[type="email"] {
+input[type="textarea"], input[type="email"] {
   padding: 1.625em 2.4375em;
   width: 100%;
 }
