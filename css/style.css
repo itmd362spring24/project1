@@ -10,6 +10,12 @@ ul, input {
   display: block;
 }
 
+form {
+  width: 80%;
+  height: 95%;
+  margin: 0 auto;
+}
+
 label[for="email_notifs"]{
   display: inline-block;
 }
