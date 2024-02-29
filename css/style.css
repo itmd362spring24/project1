@@ -6,3 +6,10 @@ main {
   position: absolute;
   margin: 0 auto;
 }
+/*Content*/
+h1 {
+  font-weight: 700;
+  font-size: 3em;
+  position: relative;
+  margin: 0 auto;
+}
