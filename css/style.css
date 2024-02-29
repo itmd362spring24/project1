@@ -11,6 +11,7 @@ ul, input {
 }
 
 form {
+  display: inline-block;
   float: left;
   width: 50%;
   height: 95%;
@@ -18,6 +19,7 @@ form {
 }
 
 #category_preview {
+  display: inline-block;
   width: 25%;
   height: 95%;
 }
@@ -49,4 +51,8 @@ h1 {
 p, label, li {
   font-size: 3em;
   font-weight: 300;
+}
+
+ul {
+  list-style-type: "\2605";
 }
