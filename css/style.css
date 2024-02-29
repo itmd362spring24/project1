@@ -32,6 +32,7 @@ label[for="email_notifs"]{
 input[name="email_notifs"]{
   display: inline-block;
   float: left;
+  clear: right;
 }
 
 /*Content*/
@@ -73,7 +74,7 @@ label[for="email_notifs"]{
 }
 
 input[name="email_notifs"] {
-  height: 2em;
+  height: 4em;
 }
 
 input[type="submit"] {
