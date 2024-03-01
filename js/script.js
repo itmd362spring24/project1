@@ -1,4 +1,3 @@
 var submitButton = document.querySelectorAll("input[type="email"]");
-submitButton.addEventListener("click", submitConfirm() {alert"Test";}, false);
 
-var uselessVariableToFixBuild = 1;
+submitButton.onclick = function(){alert("Test successful")};
