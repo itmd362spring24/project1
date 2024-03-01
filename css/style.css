@@ -27,13 +27,12 @@ form {
 
 label[for="email_notifs"]{
   display: inline-block;
-  float: left;
-  clear: right;
+  vertical-align: top;
 }
 
 input[name="email_notifs"]{
   display: inline-block;
-  float: left;
+  vertical-align: top;
 }
 
 /*Content*/
