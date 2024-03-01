@@ -150,3 +150,40 @@ h1 {
   color: #1E279D;
   font-family: "Righteous", "Helvetica", sans-serif;
 }
+
+
+/*Tablet/Landscape Style*/
+@media and (min-width: 481) {
+  /*Resizing fonts*/
+  h1 {
+    font-size: 6em;
+  }
+  
+  #header p {
+    font-size: 2.3em;
+  }
+  
+  #category_preview p {
+    
+  }
+  
+  #category_preview li {
+    
+  }
+  
+  label[for="email_box"], label[for="username"] {
+    
+  }
+  
+  input[name="email_box"], input[name="username"] {
+    
+  }
+  
+  label[for="email_notifs"] {
+    
+  }
+  
+  input[type="submit"] {
+    
+  }
+}
