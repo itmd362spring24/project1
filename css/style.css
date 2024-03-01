@@ -154,7 +154,6 @@ h1 {
 
 /*Tablet/Landscape Style*/
 @media (min-width: 481px) {
-  /*Resizing fonts*/
   h1 {
     font-size: 5em;
   }
@@ -172,18 +171,20 @@ h1 {
   }
   
   label[for="email_box"], label[for="username"] {
-    
+    font-size: 3em;
   }
   
   input[name="email_box"], input[name="username"] {
-    
+    padding: 1em 1.75em;
   }
   
   label[for="email_notifs"] {
-    
+    font-size: 2em;
   }
   
   input[type="submit"] {
-    
+    height: 3em;
+    width: 5.25em;
+    font-size: 5em;
   }
 }
