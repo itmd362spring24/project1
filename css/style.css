@@ -47,6 +47,7 @@ input[name="email_notifs"]{
 
 #header {
   width: 95%;
+  text-align: center;
 }
 
 /*Content*/
@@ -175,16 +176,16 @@ h1 {
   }
   
   label[for="email_box"], label[for="username"] {
-    font-size: 3em;
+    font-size: 2em;
   }
   
   input[name="email_box"], input[name="username"] {
     padding: 0.5em, 1em;
-    font-size: 1em;
+    font-size: 1.5em;
   }
   
   label[for="email_notifs"] {
-    font-size: 2em;
+    font-size: 1.25em;
   }
   
   input[type="submit"] {
