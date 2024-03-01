@@ -25,12 +25,12 @@ form {
   height: 95%;
   float: right;
   margin: auto 0;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 label[for="email_notifs"]{
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 input[name="email_notifs"]{
@@ -74,7 +74,7 @@ li {
 }
 
 label[for="email_notifs"]{
-  font-size: 2em;
+  font-size: 2.5em;
   color: #FFF;
 }
 
