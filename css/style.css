@@ -86,3 +86,15 @@ input[type="submit"] {
   border-style: none;
   border-radius: 2em 1em;
 }
+
+form {
+  background-color: #F5A5C9;
+}
+
+#category_preview {
+  background-color: #CAA3EA;
+}
+
+body {
+  background-color: #000;
+}
