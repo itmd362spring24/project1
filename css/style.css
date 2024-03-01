@@ -11,6 +11,7 @@ ul, input {
 }
 
 form {
+  position: relative;
   display: inline-block;
   float: left;
   width: 65%;
@@ -20,6 +21,7 @@ form {
 }
 
 #category_preview {
+  position: relative;
   display: inline-block;
   width: 30%;
   height: 95%;
@@ -86,7 +88,7 @@ input[name="email_notifs"] {
 input[type="submit"] {
   display: block;
   height: 4em;
-  width: 6.5em;
+  width: 6.25em;
   font-size: 6em;
   border-style: none;
   border-radius: 2em 1em;
