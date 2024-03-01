@@ -1,7 +1,7 @@
 /* Phone style */
 /*Layout*/
 main {
-  width: 95%;
+  width: 99%;
   height: 100%;
   position: relative;
   margin: 0 auto;
@@ -110,7 +110,7 @@ form {
 
 #category_preview {
   background-color: #5D1399;
-  padding: 2em;
+  padding: 3em;
 }
 
 #category_preview p, #category_preview li {
