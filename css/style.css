@@ -158,7 +158,7 @@ h1 {
 
 
 /*Tablet/Landscape Style*/
-@media (max-width: 481px) {
+@media (min-width: 900px) {
   h1 {
     font-size: 5em;
   }
