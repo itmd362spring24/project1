@@ -73,7 +73,7 @@ p, label {
   font-weight: 300;
 }
 
-input[type="textarea"], input[type="email"] {
+input[type="text"], input[type="email"] {
   padding: 1.625em 2.4375em;
   width: 60%;
   font-size: 2.5em;
@@ -181,7 +181,7 @@ h1 {
   }
   
   input[name="email_box"], input[name="username"] {
-    padding: 0.5em, 1em;
+    padding: 0.5em 1em;
     font-size: 1.5em;
   }
   
