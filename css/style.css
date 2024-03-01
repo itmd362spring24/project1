@@ -1,11 +1,12 @@
 /* Phone style */
 /*Layout*/
 main {
-  width: 100%;
+  width: 95%;
   height: 100%;
   position: relative;
   margin: 0 auto;
 }
+
 ul, input {
   display: block;
 }
@@ -109,7 +110,7 @@ form {
 
 #category_preview {
   background-color: #5D1399;
-  padding: 1em;
+  padding: 2em;
 }
 
 #category_preview p, #category_preview li {
