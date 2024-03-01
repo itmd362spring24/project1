@@ -1,7 +1,7 @@
 /* Phone style */
 /*Layout*/
 main {
-  width: 95%;
+  width: 100%;
   height: 100%;
   position: relative;
   margin: 0 auto;
@@ -14,7 +14,7 @@ form {
   position: relative;
   display: inline-block;
   float: left;
-  width: 60%;
+  width: 65%;
   height: 95%;
   margin: auto 0;
   vertical-align: top;
@@ -114,10 +114,6 @@ form {
 
 #category_preview p, #category_preview li {
   color: #CAA3EA;
-}
-
-body {
-  background-color: #000;
 }
 
 #header {
