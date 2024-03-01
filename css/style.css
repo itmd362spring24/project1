@@ -83,4 +83,6 @@ input[type="submit"] {
   height: 4em;
   width: 7em;
   font-size: 6em;
+  border-style: none;
+  border-radius: 2em 1em;
 }
