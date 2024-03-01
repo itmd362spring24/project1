@@ -3,4 +3,4 @@ function submitConfirm() {
 }
 
 var submitButton = document.querySelectorAll("input[type="email"]");
-submitButton.addEventListener("click", submitConfirm());
+submitButton.addEventListener("click", submitConfirm() {alert"Test";}, false);
