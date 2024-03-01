@@ -14,7 +14,7 @@ form {
   position: relative;
   display: inline-block;
   float: left;
-  width: 65%;
+  width: 60%;
   height: 95%;
   margin: auto 0;
   vertical-align: top;
@@ -23,7 +23,7 @@ form {
 #category_preview {
   position: relative;
   display: inline-block;
-  width: 30%;
+  width: 35%;
   height: 95%;
   float: right;
   margin: auto 0;
@@ -76,14 +76,14 @@ li {
   font-size: 3em;
 }
 
-label {
+label[for="username"], label[for="email_notifs"] {
   color: #BF0C5D;
 }
 
 label[for="email_notifs"]{
   font-size: 2.5em;
   color: #FFF;
-  line-height: 3em;
+  line-height: 1em;
 }
 
 input[name="email_notifs"] {
@@ -122,4 +122,5 @@ body {
 
 #header {
   background-color: #FFF;
+  border-radius: 1em 1em 0 0;
 }
