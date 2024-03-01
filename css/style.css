@@ -107,6 +107,7 @@ input[type="submit"] {
   border-radius: 2em 1em;
   background-color: #BF0C5D;
   color: #F5A5C9;
+  font-family: "Righteous", "Helvetica", sans-serif;
 }
 
 form {
@@ -122,6 +123,10 @@ form {
 
 #category_preview p, #category_preview li {
   color: #CAA3EA;
+}
+
+#category_preview p {
+  font-family: "Righteous", "Helvetica", sans-serif;
 }
 
 #category_preview li {
