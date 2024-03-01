@@ -130,3 +130,11 @@ form {
   background-color: #FFF;
   border-radius: 1em 1em 0 0;
 }
+
+h1 {
+  color: #7B82D8;
+}
+
+#header p {
+  color: #1E279D;
+}
