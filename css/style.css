@@ -13,7 +13,7 @@ ul, input {
 form {
   display: inline-block;
   float: left;
-  width: 70%;
+  width: 65%;
   height: 95%;
   margin: auto 0;
   vertical-align: top;
@@ -25,7 +25,7 @@ form {
   height: 95%;
   float: right;
   margin: auto 0;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 label[for="email_notifs"]{
@@ -35,7 +35,7 @@ label[for="email_notifs"]{
 
 input[name="email_notifs"]{
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 /*Content*/
@@ -86,7 +86,7 @@ input[name="email_notifs"] {
 input[type="submit"] {
   display: block;
   height: 4em;
-  width: 7em;
+  width: 6.5em;
   font-size: 6em;
   border-style: none;
   border-radius: 2em 1em;
