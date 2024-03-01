@@ -27,12 +27,12 @@ form {
 
 label[for="email_notifs"]{
   display: inline-block;
+  clear: right;
 }
 
 input[name="email_notifs"]{
   display: inline-block;
   float: left;
-  clear: right;
 }
 
 /*Content*/
@@ -57,7 +57,7 @@ p, label {
 
 input[type="textarea"], input[type="email"] {
   padding: 1.625em 2.4375em;
-  width: 100%;
+  width: 45em;
   font-size: 2.5em;
 }
 
@@ -75,10 +75,12 @@ label[for="email_notifs"]{
 
 input[name="email_notifs"] {
   height: 4em;
+  width: 4em;
 }
 
 input[type="submit"] {
   display: block;
   height: 6em;
   width: 40em;
+  font-size: 6em;
 }
