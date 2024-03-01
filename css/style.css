@@ -27,6 +27,7 @@ form {
 
 label[for="email_notifs"]{
   display: inline-block;
+  float: left;
   clear: right;
 }
 
@@ -74,13 +75,13 @@ label[for="email_notifs"]{
 }
 
 input[name="email_notifs"] {
-  height: 4em;
-  width: 4em;
+  height: 3em;
+  width: 3em;
 }
 
 input[type="submit"] {
   display: block;
   height: 6em;
-  width: 10em;
+  width: 8em;
   font-size: 6em;
 }
