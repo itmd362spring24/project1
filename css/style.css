@@ -113,12 +113,17 @@ form {
 }
 
 #category_preview {
+  text-align: center;
   background-color: #5D1399;
   padding: 3em;
 }
 
 #category_preview p, #category_preview li {
   color: #CAA3EA;
+}
+
+#category_preview li {
+  font-size: 2em;
 }
 
 #header {
