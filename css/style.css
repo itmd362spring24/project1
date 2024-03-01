@@ -45,6 +45,10 @@ input[name="email_notifs"]{
   vertical-align: top;
 }
 
+#header {
+  width: 95%;
+}
+
 /*Content*/
 h1 {
   font-weight: 700;
