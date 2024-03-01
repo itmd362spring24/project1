@@ -158,7 +158,7 @@ h1 {
 
 
 /*Tablet/Landscape Style*/
-@media (min-width: 900px) {
+@media only screen and (min-width: 540px) {
   h1 {
     font-size: 5em;
   }
@@ -198,4 +198,9 @@ h1 {
     width: 5.25em;
     font-size: 5em;
   }
+}
+
+
+@media (min-width: 1080px) {
+  
 }
