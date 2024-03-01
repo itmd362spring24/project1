@@ -73,6 +73,7 @@ input[type="textarea"], input[type="email"] {
   font-size: 2.5em;
   color: #EB75AB;
   border-radius: 0.25em;
+  font-family: "Madimi One", "Helvetica", sans-serif;
 }
 
 ul {
@@ -85,12 +86,14 @@ li {
 
 label[for="username"], label[for="email_box"] {
   color: #BF0C5D;
+  font-family: "Madimi One", "Helvetica", sans-serif;
 }
 
 label[for="email_notifs"]{
   font-size: 2.5em;
   color: #FFF;
   line-height: 1em;
+  font-family: "Madimi One", "Helvetica", sans-serif;
 }
 
 input[name="email_notifs"] {
@@ -131,6 +134,7 @@ form {
 
 #category_preview li {
   font-size: 2em;
+  font-family: "Madimi One", "Helvetica", sans-serif;
 }
 
 #header {
@@ -144,4 +148,5 @@ h1 {
 
 #header p {
   color: #1E279D;
+  font-family: "Righteous", "Helvetica", sans-serif;
 }
