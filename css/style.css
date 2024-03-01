@@ -1,5 +1,9 @@
 /* Phone style */
 /*Layout*/
+html, body {
+  height: 100%;
+  width: 100%;
+}
 main {
   width: 99%;
   height: 100%;
