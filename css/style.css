@@ -179,7 +179,8 @@ h1 {
   }
   
   input[name="email_box"], input[name="username"] {
-    padding: 1em 1.75em;
+    padding: 0.5em, 1em;
+    font-size: 1em;
   }
   
   label[for="email_notifs"] {
