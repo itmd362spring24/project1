@@ -20,7 +20,7 @@ form {
 
 #category_preview {
   display: inline-block;
-  width: 25%;
+  width: 23%;
   height: 95%;
   float: right;
   margin: auto 0;
@@ -58,7 +58,7 @@ p, label {
 
 input[type="textarea"], input[type="email"] {
   padding: 1.625em 2.4375em;
-  width: 7em;
+  width: 8em;
   font-size: 2.5em;
   color: #EB75AB;
 }
@@ -73,6 +73,7 @@ li {
 
 label[for="email_notifs"]{
   font-size: 2em;
+  color: #FFF;
 }
 
 input[name="email_notifs"] {
@@ -104,5 +105,5 @@ body {
 }
 
 #header {
-  background-color: FFF;
+  background-color: #FFF;
 }
