@@ -77,7 +77,7 @@ li {
   font-size: 3em;
 }
 
-label[for="username"], label[for="email_notifs"] {
+label[for="username"], label[for="email_box"] {
   color: #BF0C5D;
 }
 
