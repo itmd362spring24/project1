@@ -52,7 +52,7 @@ h1 {
   position: relative;
   margin: 0;
   font-family: "Righteous", "Helvetica", sans-serif;
-  text-shadow: 0 1em 1em 1em #3B44B0;
+  text-shadow: -1em 1em 1em #3B44B0;
 }
 
 #subtitle {
