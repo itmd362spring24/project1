@@ -81,6 +81,6 @@ input[name="email_notifs"] {
 input[type="submit"] {
   display: block;
   height: 6em;
-  width: 25em;
+  width: 90%;
   font-size: 6em;
 }
