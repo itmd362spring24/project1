@@ -188,8 +188,13 @@ h1 {
     font-size: 1.25em;
   }
   
+  input[name="email_notifs"] {
+    height: 1.25em;
+    width: 1.25em;
+  }
+  
   input[type="submit"] {
-    height: 3em;
+    height: 2em;
     width: 5.25em;
     font-size: 5em;
   }
