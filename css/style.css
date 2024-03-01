@@ -45,14 +45,14 @@ h1 {
   font-weight: 700;
   font-size: 10em;
   position: relative;
-  margin: 0 auto;
+  margin: 0;
 }
 
 #subtitle {
   font-weight: 500;
   font-size: 6em;
   position: relative;
-  margin: 0 auto;
+  margin: 0;
 }
 
 p, label {
@@ -108,7 +108,12 @@ form {
 }
 
 #category_preview {
-  background-color: #CAA3EA;
+  background-color: #5D1399;
+  padding: 1em;
+}
+
+#category_preview p, #category_preview li {
+  color: #CAA3EA;
 }
 
 body {
