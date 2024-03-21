@@ -1,3 +1,3 @@
-var submitButton = document.querySelectorAll("h1");
-
-submitButton.onclick = function(){alert("Test successful")};
+jQuery(function($) {
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
