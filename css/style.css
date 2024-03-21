@@ -24,7 +24,7 @@ ul, input {
   width: 60%;
   height: 95%;
   padding: 0;
-  margin: auto 0;
+  margin: 0;
   vertical-align: top;
 }
 #category_preview {
@@ -34,7 +34,7 @@ ul, input {
   height: 95%;
   float: right;
   padding: 0;
-  margin: auto 0;
+  margin: 0;
   vertical-align: top;
 }
 label[for="email_notifs"]{
@@ -98,8 +98,8 @@ input[name="email_notifs"] {
 }
 input[type="submit"] {
   display: block;
-  height: 4em;
-  width: 6.25em;
+  height: 3.5em;
+  width: 5.75em;
   font-size: 6em;
   border-style: none;
   border-radius: 2em 1em;
