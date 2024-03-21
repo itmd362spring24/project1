@@ -21,21 +21,21 @@ ul, input {
   position: relative;
   display: inline-block;
   float: left;
-  width: 60%;
+  width: 55%;
   height: 95%;
+  border: 0;
   padding: 0;
   margin: 0;
-  vertical-align: top;
 }
 #category_preview {
   position: relative;
   display: inline-block;
-  width: 25%;
+  width: 35%;
   height: 95%;
   float: right;
+  border: 0;
   padding: 0;
   margin: 0;
-  vertical-align: top;
 }
 label[for="email_notifs"]{
   display: inline-block;
@@ -48,6 +48,9 @@ input[name="email_notifs"]{
 #header {
   width: 95%;
   text-align: center;
+}
+#headerwrap {
+  width: 50%;
 }
 /*Content*/
 h1 {
