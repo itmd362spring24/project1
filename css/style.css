@@ -146,41 +146,115 @@ h1 {
   color: #1E279D;
   font-family: "Righteous", "Helvetica", sans-serif;
 }
-
 #submitbutton {
   text-align: center;
 }
 /*Tablet/Landscape Style*/
-@media only screen and min-width: 540px {
+@media only screen and (min-width: 540px) {
+  #headerwrap {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  #header {
+    background-color: #FFF;
+    width: 95%;
+    text-align: center;
+  }
   h1 {
-
+    color: #7B82D8;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 4em;
+    position: relative;
+    margin: 0;
+    font-family: "Righteous", "Helvetica", sans-serif;
+    text-shadow: -0.125em 0.125em #3B44B0;
+    width: 45%;
+    float: left;
   }
   #header p {
-
+    font-size: 2em;
+    color: #1E279D;
+    font-family: "Righteous", "Helvetica", sans-serif;
+    width: 45%;
+    float: right;
+    display: inline-block;
+    padding: 60px 0;
+  }
+  #usernamediv{
+    width: 45%;
+    margin-right: 5%;
+    display: inline-block;
+  }
+  #emaildiv{
+    width: 45%;
+    display: inline-block;
+  }
+  #formsect {
+    text-align: center;
+    width: 100%;
+    background-color: #F5A5C9;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  #category_preview {
+    width: 100%;
+    height: 30%;
+    border: 0;
+    padding: 0;
+    margin: 0;
   }
   #category_preview p {
-    
+    margin-top: 10px;
+    font-size: 3em;
   }
-  #category_preview li {
-    
+  label {
+    font-size: 2em;
   }
-  label[for="email_box"], label[for="username"] {
- 
+  label[for="email_notifs"]{
+    font-size: 2em;
+    color: #FFF;
+    line-height: 1em;
+    font-family: "Madimi One", "Helvetica", sans-serif;
   }
-  input[name="email_box"], input[name="username"] {
-    
-  }
-  label[for="email_notifs"] {
-
-  }
-  input[name="email_notifs"] {
-    
+  input[type="text"], input[type="email"] {
+    padding: 0.5em 1em;
+    width: 70%;
+    font-size: 1.5em;
+    color: #EB75AB;
+    border-radius: 0.25em;
+    height: 3em;
+    font-family: "Madimi One", "Helvetica", sans-serif;
   }
   input[type="submit"] {
-
+    display: inline-block;
+    margin-top: 20px;
+    height: 2em;
+    width: 4.7em;
+    font-size: 3em;
+    border-style: none;
+    border-radius: 2em 1em;
+    background-color: #BF0C5D;
+    color: #F5A5C9;
+    font-family: "Righteous", "Helvetica", sans-serif;
+  }
+  input[name="email_notifs"] {
+    margin-left: 100px;
+    margin-top: 5px;
+    height: 2em;
+    width: 2em;
+  }
+  label[for="email_notifs"]{
+    font-size: 1.7em;
+    margin: 10px 4px;
+    color: #FFF;
+    line-height: 0.7em;
+    font-family: "Madimi One", "Helvetica", sans-serif;
   }
 }
 @media only screen and (min-width: 1080px) {
   /*Placeholder because I am not working on a second media query if my first one won't work*/
-  /*Also here's my Paletton palette: https://paletton.com/#uid=54B0F0kk-CKanSQg0K+oIvVu4st */
 }
+/*Also here's my Paletton palette: https://paletton.com/#uid=54B0F0kk-CKanSQg0K+oIvVu4st */
