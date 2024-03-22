@@ -250,7 +250,7 @@ h1 {
     font-family: "Madimi One", "Helvetica", sans-serif;
   }
 }
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 1600px) {
    #headerwrap {
     text-align: left;
     display: inline-block;
