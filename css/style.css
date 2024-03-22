@@ -250,7 +250,7 @@ h1 {
     font-family: "Madimi One", "Helvetica", sans-serif;
   }
 }
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 2000px) {
    #headerwrap {
     text-align: left;
     display: inline-block;
@@ -310,5 +310,4 @@ h1 {
     text-align: center;
   }
 }
-
 /*Also here's my Paletton palette: https://paletton.com/#uid=54B0F0kk-CKanSQg0K+oIvVu4st */
